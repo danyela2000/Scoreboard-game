@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-
+/*  Layout */
 .main-container {
     background-color:#1B244A;
     width: 575px;
@@ -19,13 +19,6 @@ body {
     margin: 10px;
 }
 
-h3 {
-    font-family: Verdana;
-    font-size:45px;
-    color:#EEEEEE;
-    text-align: center;
-    margin-bottom: 21px;
-}
 .black-box {
     font-family: 'Cursed Timer ULiL', sans-serif;
     text-align: center;
@@ -44,6 +37,25 @@ h3 {
     justify-content:center;  
 }
 
+.reset-box{
+    margin: 21px auto 10px;
+    text-align: center;
+
+}
+
+/*  Typography */
+
+h3 {
+    font-family: Verdana;
+    font-size:45px;
+    color:#EEEEEE;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+
+
+/* Buttons */
 .btn {
     background-color: #1B244A;
     border: 2px solid #9AABD8;
@@ -56,8 +68,3 @@ h3 {
 
 }
 
-.reset-box{
-    margin: 21px auto 10px;
-    text-align: center;
-
-}
